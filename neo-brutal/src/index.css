@@ -1,0 +1,170 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  /* Main colors */
+  --background: #F5F5F5;
+  --secondary-background: #FFFFFF;
+  --foreground: #333333;
+  --main-foreground: #FFFFFF;
+  --main: #007AFF;
+  --border: #333333;
+  --ring: #007AFF;
+  --overlay: rgba(51, 51, 51, 0.8);
+  --shadow: 4px 4px 0px 0px var(--border);
+  
+  /* Chart colors */
+  --chart-1: #FF4F00;
+  --chart-2: #007AFF;
+  --chart-3: #FFD700;
+  --chart-4: #333333;
+  --chart-5: #F5F5F5;
+  --chart-active-dot: #333333;
+  
+  /* Accent colors */
+  --accent-yellow: #FFD700;
+  --accent-green: #007AFF;
+  --accent-orange: #FF4F00;
+  --accent-purple: #333333;
+  --accent-pink: #FF4F00;
+}
+
+@theme inline {
+  --color-primary: var(--main);
+  --color-primary-foreground: var(--main-foreground);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary-background);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--secondary-background);
+  --color-muted-foreground: var(--foreground);
+  --color-accent: var(--secondary-background);
+  --color-accent-foreground: var(--foreground);
+  --color-destructive: #FF0040;
+  --color-destructive-foreground: #ffffff;
+  --color-border: var(--border);
+  --color-input: var(--border);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --radius: 5px;
+  --shadow-sm: 2px 2px 0px 0px var(--border);
+  --shadow: 4px 4px 0px 0px var(--border);
+  --shadow-lg: 6px 6px 0px 0px var(--border);
+  --shadow-xl: 8px 8px 0px 0px var(--border);
+  --font-weight-normal: 500;
+  --font-weight-medium: 600;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 800;
+}
+  
+@layer base {
+  body {
+    color: var(--foreground);
+    font-weight: var(--font-weight-normal);
+    background-color: var(--background);
+    background-image: 
+      linear-gradient(rgba(51, 51, 51, 0.15) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(51, 51, 51, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: 0 0;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-weight: var(--font-weight-bold);
+  }
+}
+
+@layer utilities {
+  .neo-shadow {
+    box-shadow: 4px 4px 0px 0px var(--border);
+  }
+  
+  .neo-shadow-lg {
+    box-shadow: 8px 8px 0px 0px var(--border);
+  }
+  
+  .neo-shadow-pressed {
+    box-shadow: 2px 2px 0px 0px var(--border);
+  }
+  
+  .neo-border {
+    border: 4px solid var(--border);
+  }
+  
+  .neo-border-thick {
+    border: 6px solid var(--border);
+  }
+  
+  /* Grid pattern background */
+  .bg-grid {
+    background-image: 
+      linear-gradient(rgba(51, 51, 51, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(51, 51, 51, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+  .bg-grid-sm {
+    background-image: 
+      linear-gradient(rgba(51, 51, 51, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(51, 51, 51, 0.08) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+  
+  .bg-grid-lg {
+    background-image: 
+      linear-gradient(rgba(51, 51, 51, 0.12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(51, 51, 51, 0.12) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  
+  /* High contrast accent color utilities */
+  .bg-accent-yellow {
+    background-color: var(--accent-yellow);
+    color: var(--foreground);
+  }
+  
+  .bg-accent-green {
+    background-color: var(--accent-green);
+    color: var(--foreground);
+  }
+  
+  .bg-accent-orange {
+    background-color: var(--accent-orange);
+    color: var(--foreground);
+  }
+  
+  .bg-accent-purple {
+    background-color: var(--accent-purple);
+    color: var(--main-foreground);
+  }
+  
+  .bg-accent-pink {
+    background-color: var(--accent-pink);
+    color: var(--main-foreground);
+  }
+  
+  .text-accent-yellow {
+    color: var(--accent-yellow);
+  }
+  
+  .text-accent-green {
+    color: var(--accent-green);
+  }
+  
+  .text-accent-orange {
+    color: var(--accent-orange);
+  }
+  
+  .text-accent-purple {
+    color: var(--accent-purple);
+  }
+  
+  .text-accent-pink {
+    color: var(--accent-pink);
+  }
+}
