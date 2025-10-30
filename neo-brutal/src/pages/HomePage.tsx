@@ -58,6 +58,8 @@ export function HomePage() {
             {blogPosts.map((post, index) => {
               const accentColors = ['bg-accent-green', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink']
               const accentColor = accentColors[index % accentColors.length]
+              const isDarkBackground = accentColor === 'bg-accent-purple'
+              const textColor = isDarkBackground ? 'text-main-foreground' : 'text-foreground'
               
               return (
                 <Card 
@@ -70,16 +72,16 @@ export function HomePage() {
                         {post.category}
                       </Badge>
                       <div className="text-right">
-                        <time className="text-sm text-foreground font-medium">{post.date}</time>
-                        <p className="text-xs text-foreground">{post.readTime}</p>
+                        <time className={`text-sm ${textColor} font-medium`}>{post.date}</time>
+                        <p className={`text-xs ${textColor}`}>{post.readTime}</p>
                       </div>
                     </div>
-                    <CardTitle className="text-2xl font-bold text-foreground">
+                    <CardTitle className={`text-2xl font-bold ${textColor}`}>
                       {post.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-base text-foreground">
+                    <CardDescription className={`text-base ${textColor}`}>
                       {post.excerpt}
                     </CardDescription>
                   </CardContent>
@@ -126,10 +128,10 @@ export function HomePage() {
             
             <Card className="border-4 border-border bg-accent-purple text-center">
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-foreground">CLASS ASSIGNMENTS</CardTitle>
+                <CardTitle className="text-xl font-bold text-main-foreground">CLASS ASSIGNMENTS</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base text-foreground">
+                <CardDescription className="text-base text-main-foreground">
                   Academic analysis and responses to assigned readings from class.
                 </CardDescription>
               </CardContent>
