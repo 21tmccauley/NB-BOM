@@ -45,9 +45,6 @@ export function BlogPostPage() {
               <Link to="/about">
                 <Button variant="outline" className="border-2">About</Button>
               </Link>
-              <Link to="/contact">
-                <Button variant="outline" className="border-2">Contact</Button>
-              </Link>
             </nav>
           </div>
         </div>

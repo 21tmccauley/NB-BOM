@@ -20,9 +20,6 @@ export function AboutPage() {
               <Link to="/about">
                 <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">About</Button>
               </Link>
-              <Link to="/contact">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">Contact</Button>
-              </Link>
             </nav>
           </div>
         </div>
@@ -161,11 +158,6 @@ export function AboutPage() {
                 <Link to="/">
                   <Button className="bg-accent-orange text-main-foreground border-2 border-border shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
                     READ THE BLOG
-                  </Button>
-                </Link>
-                <Link to="/contact">
-                  <Button variant="outline" className="border-2 border-border shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-                    GET IN TOUCH
                   </Button>
                 </Link>
               </div>

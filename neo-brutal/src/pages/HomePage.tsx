@@ -21,9 +21,6 @@ export function HomePage() {
               <Link to="/about">
                 <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">About</Button>
               </Link>
-              <Link to="/contact">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">Contact</Button>
-              </Link>
             </nav>
           </div>
         </div>
@@ -64,7 +61,7 @@ export function HomePage() {
               return (
                 <Card 
                   key={post.id} 
-                  className={`border-4 border-border ${accentColor}`}
+                  className={`border-4 border-border ${accentColor} flex flex-col`}
                 >
                   <CardHeader>
                     <div className="flex justify-between items-start mb-2">
@@ -80,7 +77,7 @@ export function HomePage() {
                       {post.title}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="flex-1">
                     <CardDescription className={`text-base ${textColor}`}>
                       {post.excerpt}
                     </CardDescription>
@@ -144,7 +141,7 @@ export function HomePage() {
       <footer className="mt-16 border-t-4 border-border bg-background p-6">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-foreground font-bold">
-            Book of Mormon Blog | BYU Religion Class | Fall 2024
+            Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>
       </footer>

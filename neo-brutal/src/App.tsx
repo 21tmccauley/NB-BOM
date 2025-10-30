@@ -12,7 +12,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/post/:id" element={<BlogPostPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<div>Contact Page Coming Soon</div>} />
         </Routes>
       </Router>
     </ThemeProvider>
