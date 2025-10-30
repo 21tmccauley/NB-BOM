@@ -29,6 +29,25 @@ You can edit this post in the \`blogPosts.ts\` file to add your own blog content
     readTime: "1 min read",
     author: "Student",
     tags: ["placeholder"]
+  },
+  {
+    id: "placeholder-post-2",
+    title: "Placeholder Post 2",
+    excerpt: "This is a placeholder blog post. Replace this with your actual content.",
+    content: `
+# Placeholder Post
+
+This is a placeholder blog post. Replace this with your actual content.
+
+## Getting Started
+
+You can edit this post in the \`blogPosts.ts\` file to add your own blog content.
+    `,
+    date: "Jan 1, 2025",
+    category: "Placeholder",
+    readTime: "1 min read",
+    author: "Student",
+    tags: ["placeholder"]
   }
 ]
 
