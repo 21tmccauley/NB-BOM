@@ -1,5 +1,7 @@
 # GitHub Pages Deployment Guide
 
+> Last updated: $(date)
+
 This guide will help you deploy your Neo-Brutal Web app to GitHub Pages.
 
 ## Prerequisites
