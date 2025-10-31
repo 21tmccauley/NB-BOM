@@ -40,7 +40,7 @@ export function AboutPage() {
 
         {/* About Content */}
         <section className="mb-12">
-          <Card className="border-4 border-border bg-accent-green shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+          <Card className="border-4 border-border bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
             <CardHeader>
               <CardTitle className="text-3xl font-bold text-foreground mb-4">
                 MY STORY
@@ -73,7 +73,7 @@ export function AboutPage() {
           <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
             MISSION & VALUES
           </h3>
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             <Card className="border-4 border-border bg-accent-orange">
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-foreground">AUTHENTIC LEARNING</CardTitle>
@@ -97,6 +97,18 @@ export function AboutPage() {
                 </CardDescription>
               </CardContent>
             </Card>
+            
+            <Card className="border-4 border-border bg-accent-pink">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-main-foreground">SPIRITUAL GROWTH</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base text-main-foreground">
+                  Fostering personal transformation through meaningful engagement with sacred texts and 
+                  heartfelt reflection on their application to daily life.
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
@@ -105,8 +117,8 @@ export function AboutPage() {
           <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
             WHAT YOU'LL FIND HERE
           </h3>
-          <div className="grid gap-6 md:grid-cols-3">
-            <Card className="border-4 border-border bg-accent-green text-center">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <Card className="border-4 border-border bg-accent-darkblue text-center">
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-foreground">CHAPTER STUDIES</CardTitle>
               </CardHeader>
@@ -135,6 +147,17 @@ export function AboutPage() {
               <CardContent>
                 <CardDescription className="text-base text-main-foreground">
                   Academic responses to assigned readings and thought-provoking questions from my religion class.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            
+            <Card className="border-4 border-border bg-accent-pink text-center">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-main-foreground">PERSONAL REFLECTIONS</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base text-main-foreground">
+                  Heartfelt thoughts on scripture passages and their impact on personal spiritual development.
                 </CardDescription>
               </CardContent>
             </Card>

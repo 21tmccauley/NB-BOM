@@ -10,23 +10,12 @@
   --main: #3300FF;
   --border: #333333;
   --ring: #3300FF;
-  --overlay: rgba(51, 51, 51, 0.8);
-  --shadow: 4px 4px 0px 0px var(--border);
-  
-  /* Chart colors */
-  --chart-1: #FF4911;
-  --chart-2: #3300FF;
-  --chart-3: #FFFF00;
-  --chart-4: #7DF9FF;
-  --chart-5: #2FFF2F;
-  --chart-active-dot: #333333;
-  
   /* Accent colors */
-  --accent-yellow: #FFFF00;
-  --accent-green: #2FFF2F;
-  --accent-orange: #FF4911;
-  --accent-purple: #3300FF;
-  --accent-pink: #FF00F5;
+  --accent-yellow: #FFEC00;
+  --accent-darkblue: #69D2E7;
+  --accent-orange: #FF6B6B;
+  --accent-purple: #9723C9;
+  --accent-pink: #FF69b4;
 }
 
 @theme inline {
@@ -45,11 +34,6 @@
   --color-border: var(--border);
   --color-input: var(--border);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
 
   --radius: 5px;
   --shadow-sm: 2px 2px 0px 0px var(--border);
@@ -80,46 +64,35 @@
 }
 
 @layer utilities {
+  /* Neo-brutal shadow utilities using theme variables */
+  .neo-shadow-sm {
+    box-shadow: var(--shadow-sm);
+  }
+  
   .neo-shadow {
-    box-shadow: 4px 4px 0px 0px var(--border);
+    box-shadow: var(--shadow);
   }
   
   .neo-shadow-lg {
-    box-shadow: 8px 8px 0px 0px var(--border);
+    box-shadow: var(--shadow-lg);
   }
   
+  .neo-shadow-xl {
+    box-shadow: var(--shadow-xl);
+  }
+  
+  /* Pressed/active state shadow (smaller) */
   .neo-shadow-pressed {
-    box-shadow: 2px 2px 0px 0px var(--border);
+    box-shadow: var(--shadow-sm);
   }
   
-  .neo-border {
-    border: 4px solid var(--border);
+  /* Hover variants for interactive elements */
+  .hover\:neo-shadow-sm:hover {
+    box-shadow: var(--shadow-sm);
   }
   
-  .neo-border-thick {
-    border: 6px solid var(--border);
-  }
-  
-  /* Grid pattern background */
-  .bg-grid {
-    background-image: 
-      linear-gradient(rgba(51, 51, 51, 0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(51, 51, 51, 0.1) 1px, transparent 1px);
-    background-size: 20px 20px;
-  }
-  
-  .bg-grid-sm {
-    background-image: 
-      linear-gradient(rgba(51, 51, 51, 0.08) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(51, 51, 51, 0.08) 1px, transparent 1px);
-    background-size: 16px 16px;
-  }
-  
-  .bg-grid-lg {
-    background-image: 
-      linear-gradient(rgba(51, 51, 51, 0.12) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(51, 51, 51, 0.12) 1px, transparent 1px);
-    background-size: 24px 24px;
+  .hover\:neo-shadow-lg:hover {
+    box-shadow: var(--shadow-lg);
   }
   
   /* High contrast accent color utilities */
@@ -128,8 +101,8 @@
     color: var(--foreground);
   }
   
-  .bg-accent-green {
-    background-color: var(--accent-green);
+  .bg-accent-darkblue {
+    background-color: var(--accent-darkblue);
     color: var(--foreground);
   }
   
@@ -146,25 +119,5 @@
   .bg-accent-pink {
     background-color: var(--accent-pink);
     color: var(--main-foreground);
-  }
-  
-  .text-accent-yellow {
-    color: var(--accent-yellow);
-  }
-  
-  .text-accent-green {
-    color: var(--accent-green);
-  }
-  
-  .text-accent-orange {
-    color: var(--accent-orange);
-  }
-  
-  .text-accent-purple {
-    color: var(--accent-purple);
-  }
-  
-  .text-accent-pink {
-    color: var(--accent-pink);
   }
 }

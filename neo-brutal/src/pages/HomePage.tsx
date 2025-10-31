@@ -53,9 +53,9 @@ export function HomePage() {
           </h3>
           <div className="grid gap-6 md:grid-cols-2">
             {blogPosts.map((post, index) => {
-              const accentColors = ['bg-accent-green', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink']
+              const accentColors = ['bg-accent-darkblue', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink']
               const accentColor = accentColors[index % accentColors.length]
-              const isDarkBackground = accentColor === 'bg-accent-purple'
+              const isDarkBackground = accentColor === 'bg-accent-purple' || accentColor === 'bg-accent-pink'
               const textColor = isDarkBackground ? 'text-main-foreground' : 'text-foreground'
               
               return (
@@ -100,8 +100,8 @@ export function HomePage() {
           <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
             ABOUT THIS BLOG
           </h3>
-          <div className="grid gap-6 md:grid-cols-3">
-            <Card className="border-4 border-border bg-accent-green text-center">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <Card className="border-4 border-border bg-accent-darkblue text-center">
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-foreground">SCRIPTURE STUDY</CardTitle>
               </CardHeader>
@@ -130,6 +130,17 @@ export function HomePage() {
               <CardContent>
                 <CardDescription className="text-base text-main-foreground">
                   Academic analysis and responses to assigned readings from class.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            
+            <Card className="border-4 border-border bg-accent-pink text-center">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-main-foreground">REFLECTIONS</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base text-main-foreground">
+                  Personal thoughts and spiritual growth insights from my journey.
                 </CardDescription>
               </CardContent>
             </Card>

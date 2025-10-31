@@ -80,11 +80,17 @@ export function BlogPostPage() {
               {post.excerpt}
             </CardDescription>
             <div className="flex gap-2 mb-4 flex-wrap">
-              {post.tags.map((tag) => (
-                <Badge key={tag} variant="outline" className="border-2 border-border">
-                  #{tag}
-                </Badge>
-              ))}
+              {post.tags.map((tag, index) => {
+                const accentColors = ['bg-accent-yellow', 'bg-accent-darkblue', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink']
+                const accentColor = accentColors[index % accentColors.length]
+                const isDark = accentColor === 'bg-accent-purple' || accentColor === 'bg-accent-pink'
+                const textColor = isDark ? 'text-main-foreground' : 'text-foreground'
+                return (
+                  <Badge key={tag} variant="outline" className={`border-2 border-border ${accentColor} ${textColor}`}>
+                    #{tag}
+                  </Badge>
+                )
+              })}
             </div>
             <div className="text-sm text-foreground">
               By <span className="font-bold">{post.author}</span>
@@ -115,22 +121,28 @@ export function BlogPostPage() {
             MORE POSTS
           </h3>
           <div className="grid gap-4 md:grid-cols-2">
-            {post.tags.slice(0, 2).map((tag) => (
-              <Card key={tag} className="border-4 border-border bg-secondary-background">
-                <CardHeader>
-                  <CardTitle className="text-lg font-bold text-foreground">
-                    Posts tagged #{tag}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <Link to="/">
-                    <Button variant="outline" className="border-2 w-full">
-                      View All Posts
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
+            {post.tags.slice(0, 2).map((tag, index) => {
+              const accentColors = ['bg-accent-darkblue', 'bg-accent-pink']
+              const accentColor = accentColors[index % accentColors.length]
+              const isDark = accentColor === 'bg-accent-pink'
+              const textColor = isDark ? 'text-main-foreground' : 'text-foreground'
+              return (
+                <Card key={tag} className={`border-4 border-border ${accentColor}`}>
+                  <CardHeader>
+                    <CardTitle className={`text-lg font-bold ${textColor}`}>
+                      Posts tagged #{tag}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <Link to="/">
+                      <Button variant="outline" className={`border-2 w-full ${textColor}`}>
+                        View All Posts
+                      </Button>
+                    </Link>
+                  </CardContent>
+                </Card>
+              )
+            })}
           </div>
         </section>
       </main>

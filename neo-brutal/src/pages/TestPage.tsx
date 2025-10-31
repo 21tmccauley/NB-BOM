@@ -105,7 +105,7 @@ export function TestPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-foreground mb-4">Cards with Accent Colors</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {['bg-accent-yellow', 'bg-accent-green', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink'].map((color, index) => {
+            {['bg-accent-yellow', 'bg-accent-darkblue', 'bg-accent-orange', 'bg-accent-purple', 'bg-accent-pink'].map((color, index) => {
               const isDark = color === 'bg-accent-purple' || color === 'bg-accent-pink'
               const textColor = isDark ? 'text-main-foreground' : 'text-foreground'
               return (
@@ -144,7 +144,7 @@ export function TestPage() {
                 <CardTitle className="text-sm">shadow (default)</CardTitle>
               </CardHeader>
               <CardContent className="p-4">
-                <div className="h-20 bg-accent-green shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-border"></div>
+                <div className="h-20 bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-border"></div>
               </CardContent>
             </Card>
             <Card className="border-4 border-border bg-secondary-background">
@@ -283,7 +283,7 @@ export function TestPage() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
               { name: 'Yellow', class: 'bg-accent-yellow', text: 'text-foreground' },
-              { name: 'Green', class: 'bg-accent-green', text: 'text-foreground' },
+              { name: 'Dark Blue', class: 'bg-accent-darkblue', text: 'text-foreground' },
               { name: 'Orange', class: 'bg-accent-orange', text: 'text-foreground' },
               { name: 'Purple', class: 'bg-accent-purple', text: 'text-main-foreground' },
               { name: 'Pink', class: 'bg-accent-pink', text: 'text-main-foreground' },
