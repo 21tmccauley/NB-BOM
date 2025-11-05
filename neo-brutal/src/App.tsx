@@ -4,6 +4,7 @@ import { HomePage } from "./pages/HomePage"
 import { BlogPostPage } from "./pages/BlogPostPage"
 import { AboutPage } from "./pages/AboutPage"
 import { TestPage } from "./pages/TestPage"
+import { OnePercentPage } from "./pages/OnePercentPage"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/post/:id" element={<BlogPostPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/test" element={<TestPage />} />
+          <Route path="/1percent" element={<OnePercentPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
