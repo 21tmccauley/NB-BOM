@@ -53,18 +53,14 @@ export function AboutPage() {
               <div className="space-y-4 text-base text-foreground">
                 <p>
                   This blog began as a personal project during my Book of Mormon religion class at BYU. 
-                  What started as simple class assignments quickly evolved into a deeper exploration of 
-                  scripture study and personal spiritual growth.
+                  While I initially thought that I would only use this blog for the required assignment, 
+                   found that choosing to try and write out some of my thoughs on the Book of Mormon have 
+                   made my study more meaningful.
                 </p>
                 <p>
-                  Each post represents a moment of learning, reflection, and discovery as I work through 
-                  the Book of Mormon with fresh eyes and an open heart. The neo-brutal design aesthetic 
-                  reflects my approach to scripture study - bold, direct, and unapologetically authentic.
-                </p>
-                <p>
-                  Whether you're a fellow student, a curious reader, or someone on their own spiritual 
-                  journey, I hope these insights and reflections can provide value and perhaps spark 
-                  your own deeper study of the scriptures.
+                  Each post started from a thought or verse that stood out during my Book of Mormon study.
+                  Not all of these posts are the most thought out or well written, but I hope that they can
+                  inspire you to read the Book of Mormon for yourself and to share your own thoughts and insights.
                 </p>
               </div>
             </CardContent>
