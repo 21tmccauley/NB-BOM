@@ -12,42 +12,40 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "placeholder-post",
-    title: "Placeholder Post",
-    excerpt: "This is a placeholder blog post. Replace this with your actual content.",
+    id: "Mosiah-4",
+    title: "How The Gospel Changes our Lives and Society",
+    excerpt: "Mosiah chapter 4 explains how the gospel changes our lives and society.",
     content: `
-# Placeholder Post
+# How The Gospel Changes our Lives and Society
 
-This is a placeholder blog post. Replace this with your actual content.
+Mosiah chapter 4 explains how the gospel changes our lives and society.
 
 ## Getting Started
 
 You can edit this post in the \`blogPosts.ts\` file to add your own blog content.
     `,
-    date: "Jan 1, 2025",
-    category: "Placeholder",
+    date: "November 6, 2025",
+    category: "Book of Mormon",
     readTime: "1 min read",
     author: "Student",
-    tags: ["placeholder"]
+    tags: ["Gospel", "Mosiah", "4"]
   },
   {
-    id: "placeholder-post-2",
-    title: "Placeholder Post 2",
-    excerpt: "This is a placeholder blog post. Replace this with your actual content.",
+    id: "Mosiah-Noah-Leadership",
+    title: "Leadership Principles from Mosiah and Noah",
+    excerpt: "King Mosiah and Noah provide valuable leadership principles for us to follow.",
     content: `
-# Placeholder Post
+# Leadership Principles from Mosiah and Noah
 
-This is a placeholder blog post. Replace this with your actual content.
+Leadership principles from Mosiah and Noah.
 
 ## Getting Started
-
-You can edit this post in the \`blogPosts.ts\` file to add your own blog content.
     `,
-    date: "Jan 1, 2025",
-    category: "Placeholder",
+    date: "November 6, 2025",
+    category: "Book of Mormon",
     readTime: "1 min read",
     author: "Student",
-    tags: ["placeholder"]
+    tags: ["Leadership", "Mosiah", "Noah"]
   }
 ]
 

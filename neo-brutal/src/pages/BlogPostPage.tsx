@@ -138,7 +138,7 @@ export function BlogPostPage() {
                   </CardHeader>
                   <CardContent>
                     <Link to="/">
-                      <Button variant="outline" className={`border-2 w-full ${textColor}`}>
+                      <Button variant="outline" className="border-2 w-full text-black">
                         View All Posts
                       </Button>
                     </Link>

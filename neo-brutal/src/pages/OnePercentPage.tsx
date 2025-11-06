@@ -199,37 +199,6 @@ export function OnePercentPage() {
           )}
         </section>
 
-        {/* How to Track */}
-        <section className="mb-12">
-          <Card className="border-4 border-border bg-accent-yellow shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            <CardHeader>
-              <CardTitle className="text-2xl font-bold text-foreground mb-4">
-                HOW TO TRACK YOUR DONATIONS
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-3 text-base text-foreground">
-                <p>
-                  <strong>1. Make a donation</strong> to an organization that helps the poor or those in need.
-                </p>
-                <p>
-                  <strong>2. Find their impact claim</strong> - Many organizations publish information about what 
-                  your donation accomplishes (e.g., "$50 provides clean water for 10 people", "$100 feeds a family 
-                  for a month", etc.).
-                </p>
-                <p>
-                  <strong>3. Add it here</strong> - Record the date, organization, amount, and the impact claim 
-                  they made. Include where you found that information (their website, donation receipt, etc.).
-                </p>
-                <p className="font-bold mt-4">
-                  Remember: This isn't about perfection. It's about starting, doing something, and tracking 
-                  the difference you're making, however small.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
-
         {/* Mosiah 4 Reference */}
         <section className="mb-12">
           <Card className="border-4 border-border bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
