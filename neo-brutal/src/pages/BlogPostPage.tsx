@@ -11,8 +11,21 @@ export function BlogPostPage() {
 
   if (!post) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <Card className="border-4 border-border bg-secondary-background p-8 text-center">
+      <div 
+        className="min-h-screen bg-background flex items-center justify-center"
+        style={{
+          backgroundImage: `
+            linear-gradient(rgba(51, 51, 51, 0.15) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(51, 51, 51, 0.15) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px',
+          backgroundPosition: '0 0'
+        }}
+      >
+        <Card 
+          className="border-4 border-border bg-secondary-background p-8 text-center"
+          style={{ backgroundColor: '#FFFFFF' }}
+        >
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-foreground">Post Not Found</CardTitle>
           </CardHeader>
@@ -30,9 +43,22 @@ export function BlogPostPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div 
+      className="min-h-screen bg-background"
+      style={{
+        backgroundImage: `
+          linear-gradient(rgba(51, 51, 51, 0.15) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(51, 51, 51, 0.15) 1px, transparent 1px)
+        `,
+        backgroundSize: '50px 50px',
+        backgroundPosition: '0 0'
+      }}
+    >
       {/* Header */}
-      <header className="border-b-4 border-border bg-secondary-background p-6">
+      <header 
+        className="border-b-4 border-border bg-secondary-background p-6"
+        style={{ backgroundColor: '#FFFFFF' }}
+      >
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <Link to="/" className="text-3xl font-bold text-foreground hover:underline">
             BOOK OF MORMON BLOG
@@ -65,7 +91,10 @@ export function BlogPostPage() {
         </div>
 
         {/* Blog Post */}
-        <Card className="border-4 border-border bg-secondary-background shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+        <Card 
+          className="border-4 border-border bg-secondary-background shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+          style={{ backgroundColor: '#FFFFFF' }}
+        >
           <CardHeader>
             <div className="flex justify-between items-start mb-4">
               <Badge variant="default" className="border-2 border-border font-bold bg-accent-yellow text-foreground">
@@ -169,7 +198,10 @@ export function BlogPostPage() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 border-t-4 border-border bg-secondary-background p-6">
+      <footer 
+        className="mt-16 border-t-4 border-border bg-secondary-background p-6"
+        style={{ backgroundColor: '#FFFFFF' }}
+      >
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-foreground font-bold">
             Book of Mormon Blog | BYU Religion Class | Fall 2024
