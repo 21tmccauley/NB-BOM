@@ -111,6 +111,24 @@ export function BlogPostPage() {
                 li: ({node, ...props}) => <li className="mb-2 text-foreground" {...props} />,
                 strong: ({node, ...props}) => <strong className="font-bold" {...props} />,
                 em: ({node, ...props}) => <em className="italic" {...props} />,
+                blockquote: ({node, children, ...props}) => (
+                  <blockquote 
+                    className="my-6 border-l-4 border-accent-darkblue pl-6 py-4 bg-accent-yellow/20 border-2 border-border shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] not-italic"
+                    {...props}
+                  >
+                    <div className="space-y-2 text-foreground italic text-lg leading-relaxed">
+                      {children}
+                    </div>
+                  </blockquote>
+                ),
+                a: ({node, ...props}) => (
+                  <a 
+                    className="text-accent-darkblue font-bold hover:underline" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    {...props} 
+                  />
+                ),
               }}
             >
               {post.content}
