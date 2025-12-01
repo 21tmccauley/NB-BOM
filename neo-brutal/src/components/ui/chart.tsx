@@ -75,29 +75,31 @@ const ChartTooltipContent = React.forwardRef<
   (
     {
       active,
-      payload,
+      payload: payloadProp,
       className,
       indicator = "dot",
       hideLabel = false,
       hideIndicator = false,
-      label,
+      label: labelProp,
       labelFormatter,
       labelClassName,
       formatter,
       color,
-      nameKey,
+      nameKey: _nameKey,
       labelKey,
     },
     ref
   ) => {
+    const payload = payloadProp as any
+    const label = labelProp as any
+    
     const tooltipLabel = React.useMemo(() => {
       if (hideLabel || !payload?.length) {
         return null
       }
 
       const [item] = payload
-      const key = `${labelKey || item.dataKey || item.name || "value"}`
-      const itemConfig = item.payload?.payload?.config || {}
+      const itemConfig = (item as any)?.payload?.payload?.config || {}
 
       if (
         labelFormatter === undefined &&
@@ -153,10 +155,9 @@ const ChartTooltipContent = React.forwardRef<
       >
         {!nestLabel ? tooltipLabel : null}
         <div className="grid gap-1.5">
-          {payload.map((item, index) => {
-            const key = `${nameKey || item.name || item.dataKey || "value"}`
-            const itemConfig = item.payload?.payload?.config || {}
-            const indicatorColor = color || item.payload.fill || item.color
+          {payload.map((item: any, index: number) => {
+            const itemConfig = item?.payload?.payload?.config || {}
+            const indicatorColor = color || item?.payload?.fill || item?.color
 
             return (
               <div
@@ -228,17 +229,18 @@ const ChartLegend = RechartsPrimitive.Legend
 
 const ChartLegendContent = React.forwardRef<
   HTMLDivElement,
-  React.ComponentProps<"div"> &
-    Pick<RechartsPrimitive.LegendProps, "payload" | "verticalAlign"> & {
+  React.ComponentProps<"div"> & {
       hideIcon?: boolean
       nameKey?: string
+      payload?: Array<{ value?: string; dataKey?: string; color?: string }>
+      verticalAlign?: "top" | "bottom"
     }
 >(
   (
-    { className, hideIcon = false, payload, verticalAlign = "bottom", nameKey },
+    { className, hideIcon = false, payload, verticalAlign = "bottom", nameKey: _nameKey },
     ref
   ) => {
-    if (!payload?.length) {
+    if (!payload || !Array.isArray(payload) || payload.length === 0) {
       return null
     }
 
@@ -251,8 +253,7 @@ const ChartLegendContent = React.forwardRef<
           className
         )}
       >
-        {payload.map((item) => {
-          const key = `${nameKey || item.dataKey || "value"}`
+        {payload.map((item: any) => {
 
           return (
             <div

@@ -14,7 +14,7 @@ interface Donation {
 }
 
 export function OnePercentPage() {
-  const [donations, setDonations] = useState<Donation[]>([
+  const [donations] = useState<Donation[]>([
     // Add your donations here
   ])
 
