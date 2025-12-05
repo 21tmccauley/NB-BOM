@@ -196,6 +196,187 @@ Leadership principles from Mosiah and Noah.
     readTime: "1 min read",
     author: "Student",
     tags: ["Leadership", "Mosiah", "Noah"]
+  },
+  {
+    id: "Alma-30-Korihor",
+    title: "Alma 30: The Anti-Christ Equation and the Management of the Creature",
+    excerpt: "An analysis of Korihor's arguments as a calculated inversion of the Doctrine of Christ, based on insights from cinematographer Doug Chamberlain.",
+    content: `
+# Alma 30: The Anti-Christ Equation and the Management of the Creature
+
+
+
+> "Ye look forward and say that ye see a remission of your sins. But behold, it is the effect of a frenzied mind." - Alma 30:16
+
+
+
+## Quantifying the Anti-Christ
+
+
+
+In cinematography, there is a saying: "If you can't quantify it, you can't control it." You need to know the exact color temperature, the foot-candle output, and the distance to the subject. Everything has a number.
+
+
+
+In a recent discussion on the *Stick of Joseph* channel, cinematographer Doug Chamberlain applied this same professional rigor to a figure we often dismiss as just a chaotic antagonist: Korihor. Chamberlain wanted to find the "formula" behind Korihor's success. He took a red pen to Alma 30, marking every argument Korihor made and sorting them into piles.
+
+
+
+The result wasn't random noise. It was a precise, calculated inversion of the Doctrine of Christ.
+
+
+
+Just as the Gospel is built on four pillars—Faith, Repentance, Baptism, and the Holy Ghost—Korihor's philosophy is built on dismantling those specific pillars, one by one.
+
+
+
+## The Inversion: Unwinding the Doctrine
+
+
+
+Chamberlain's analysis reveals that Korihor doesn't just attack "religion" generally; he attacks the specific sequence of spiritual progression.
+
+
+
+### 1. Attacking Faith (Verses 13-16)
+
+
+
+Faith begins with the word of God delivered through prophets. Korihor attacks the source of that faith immediately.
+
+
+
+> Behold, these things which ye call prophecies, which ye say are handed down by holy prophets, behold, they are foolish traditions of your fathers.
+
+
+
+[Source: Alma 30:14](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng)
+
+
+
+He reframes faith not as trust in the unseen, but as a "frenzied mind" and "derangement". By labeling the traditions "silly" and "foolish," he attempts to shame the believer. If the foundation of faith is foolishness, the entire structure collapses.
+
+
+
+### 2. Attacking Repentance (Verse 17)
+
+
+
+This is perhaps the most seductive argument Korihor makes. Repentance requires us to admit we are insufficient and need a Savior. Korihor offers a flattering alternative: the "Management of the Creature".
+
+
+
+> Every man fared in this life according to the management of the creature; therefore every man prospered according to his genius, and that every man conquered according to his strength; and whatsoever a man did was no crime.
+
+
+
+[Source: Alma 30:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng)
+
+
+
+If success is purely a result of your genius and your strength, then you don't need grace. You don't need help. And if "whatsoever a man did was no crime," you certainly don't need repentance. It is a doctrine of total self-sufficiency.
+
+
+
+### 3. Attacking Baptism/Covenants (Verses 23-27)
+
+
+
+Baptism and temple covenants are how we bind ourselves to God. Korihor reframes this binding as bondage.
+
+
+
+> I do not teach this people to bind themselves down under the foolish ordinances and performances which are laid down by ancient priests, to usurp power and authority over them.
+
+
+
+[Source: Alma 30:23](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng)
+
+
+
+He uses the language of exploitation: "glut themselves," "yoke them," "keep them down". He twists the voluntary submission of a covenant into the involuntary servitude of a slave.
+
+
+
+### 4. Attacking the Holy Ghost (Verses 15, 43-45)
+
+
+
+Finally, the Gift of the Holy Ghost allows us to know truth beyond physical sight. Korihor insists on pure empiricism.
+
+
+
+> Ye cannot know of things which ye do not see... except ye show me a sign, I will not believe.
+
+
+
+[Source: Alma 30:15, 45](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng)
+
+
+
+This is the ultimate inversion. Instead of believing and receiving a witness (the pattern of the Holy Ghost), Korihor demands the witness before the belief. He places the burden of proof on God and appoints himself the judge of God's power.
+
+
+
+## The Flattery of "Genius"
+
+
+
+The argument that haunts me most is the "management of the creature".
+
+
+
+> "Every man prospered according to his genius."
+
+
+
+It haunts me because a part of me wants it to be true. I want to believe that my success is due to my own hard work, my own intelligence, my own "genius." It is deeply satisfying to the natural man to think, *I did this.*
+
+
+
+When I fall into this trap—when I begin to credit my own strength for my blessings—I am inadvertently stepping onto Korihor's path. I am effectively saying I don't need the Atonement for my success, so why would I need it for my failures?
+
+
+
+The danger of Korihor isn't always that we will leave the church and preach on street corners. The danger is that we will internalize his "equation" while sitting in the pews. We might start thinking our traditions are a bit silly. We might start feeling that covenants are restrictive rather than liberating. We might start demanding signs before we are willing to act.
+
+
+
+## The Counter-Equation
+
+
+
+Recognizing the formula allows us to fight it. If Korihor's path unwinds the doctrine, we must actively wind it back up.
+
+
+
+**Faith:** We must trust the seeds planted by prophets, even when the world calls them foolish.
+
+
+
+**Repentance:** We must reject the "management of the creature" and acknowledge our desperate need for Christ's grace. We are not enough on our own.
+
+
+
+**Covenants:** We must see ordinances not as chains, but as the vehicle for power.
+
+
+
+**Holy Ghost:** We must be willing to believe without seeing, trusting that the witness comes *after* the trial of our faith.
+
+
+
+## Reflection
+
+
+
+Where do you see the "management of the creature" creeping into your own life? In what areas are you demanding a sign before you are willing to offer your faith?
+    `,
+    date: "November 24, 2025",
+    category: "Book of Mormon",
+    readTime: "4 min read",
+    author: "Student",
+    tags: ["Alma", "30", "Korihor", "Doctrine of Christ", "Faith"]
   }
 ]
 
