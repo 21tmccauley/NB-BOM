@@ -1,23 +1,25 @@
-# Neo-Brutal Web
+# Book of Mormon Blog
 
-A modern web application built with React, TypeScript, and Vite, featuring a neo-brutalist design aesthetic.
+A personal blog documenting religious insights, scripture analysis, and personal reflections from a BYU Book of Mormon religion class. Built with React, TypeScript, and Vite, featuring a neo-brutalist design aesthetic.
 
 ## Features
 
 - **Neo-Brutalist Design**: Bold colors, thick borders, and distinctive shadows
 - **Responsive Layout**: Mobile-first design that works across all devices
-- **Blog System**: Dynamic blog posts with category filtering
-- **Modern Stack**: React 18, TypeScript, Vite, and Tailwind CSS
+- **Blog System**: Dynamic blog posts with markdown content
+- **Modern Stack**: React 19, TypeScript, Vite, and Tailwind CSS
 - **Component Library**: Custom UI components built with shadcn/ui
+- **Error Handling**: Error boundaries and 404 pages for better user experience
 
 ## Tech Stack
 
-- **Frontend**: React 18 with TypeScript
+- **Frontend**: React 19 with TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS with custom CSS variables
 - **UI Components**: shadcn/ui
-- **Routing**: React Router
-- **Package Manager**: npm
+- **Routing**: React Router (BrowserRouter)
+- **Content**: React Markdown for blog posts
+- **Deployment**: Cloudflare Pages
 
 ## Getting Started
 
@@ -59,13 +61,23 @@ npm run dev
 src/
 ├── components/          # Reusable UI components
 │   ├── ui/             # shadcn/ui components
-│   └── ThemeToggle.tsx # Theme switching component
+│   ├── ThemeToggle.tsx # Theme switching component
+│   └── ErrorBoundary.tsx # Error boundary component
 ├── contexts/           # React contexts
-├── data/               # Static data and content
+├── data/               # Static data and content (blog posts)
 ├── lib/                # Utility functions
 ├── pages/              # Page components
+│   ├── HomePage.tsx
+│   ├── BlogPostPage.tsx
+│   ├── AboutPage.tsx
+│   ├── OnePercentPage.tsx
+│   └── NotFoundPage.tsx
 └── main.tsx           # Application entry point
 ```
+
+## Deployment
+
+This project is deployed on Cloudflare Pages. The `_redirects` file in the `public` directory ensures proper routing for the single-page application.
 
 ## License
 
