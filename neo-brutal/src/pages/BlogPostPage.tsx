@@ -204,7 +204,7 @@ export function BlogPostPage() {
       >
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-foreground font-bold">
-            Book of Mormon Blog | BYU Religion Class | Fall 2024
+            Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>
       </footer>

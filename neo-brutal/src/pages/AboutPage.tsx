@@ -54,8 +54,8 @@ export function AboutPage() {
                 <p>
                   This blog began as a personal project during my Book of Mormon religion class at BYU. 
                   While I initially thought that I would only use this blog for the required assignment, 
-                   found that choosing to try and write out some of my thoughs on the Book of Mormon have 
-                   made my study more meaningful.
+                  I found that choosing to try and write out some of my thoughts on the Book of Mormon have 
+                  made my study more meaningful.
                 </p>
                 <p>
                   Each post started from a thought or verse that stood out during my Book of Mormon study.
@@ -191,7 +191,7 @@ export function AboutPage() {
       <footer className="mt-16 border-t-4 border-border bg-background p-6">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-foreground font-bold">
-            Book of Mormon Blog | BYU Religion Class | Fall 2024
+            Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>
       </footer>
