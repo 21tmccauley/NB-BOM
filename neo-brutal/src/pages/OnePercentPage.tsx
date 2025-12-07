@@ -15,7 +15,22 @@ interface Donation {
 
 export function OnePercentPage() {
   const [donations] = useState<Donation[]>([
-    // Add your donations here
+    {
+      id: "1",
+      date: "2025-01-15",
+      organization: "GiveWell (Helen Keller Intl)",
+      amount: 8,
+      impact: "Vitamin A supplements for 4 children for 1 year (approximately $2 per child per year)",
+      impactSource: "GiveWell cost-effectiveness estimate"
+    },
+    {
+      id: "2",
+      date: "2025-01-15",
+      organization: "GiveWell (Malaria Consortium)",
+      amount: 12,
+      impact: "Seasonal malaria chemoprevention to protect children from malaria (approximately $7 per child)",
+      impactSource: "GiveWell cost-effectiveness estimate"
+    }
   ])
 
   const totalDonated = donations.reduce((sum, d) => sum + d.amount, 0)
@@ -147,7 +162,7 @@ export function OnePercentPage() {
           </h3>
           
           {donations.length === 0 ? (
-            <Card className="border-4 border-border bg-secondary-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <Card className="border-4 border-border bg-accent-yellow shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
               <CardContent className="p-8 text-center">
                 <p className="text-lg text-foreground mb-4">
                   No donations tracked yet. Start your journey by making your first donation!

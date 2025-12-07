@@ -182,20 +182,570 @@ What could you start doing today, even imperfectly? Where does good triumph over
   },
   {
     id: "Mosiah-Noah-Leadership",
-    title: "Leadership Principles from Mosiah and Noah",
-    excerpt: "King Mosiah and Noah provide valuable leadership principles for us to follow.",
+    title: "Two Kings, Two Towers: Inward vs. Outward Leadership",
+    excerpt: "King Benjamin and King Noah both held absolute power and built towers, but their leadership approaches produced opposite outcomes. The difference? Inward vs. outward leadership.",
     content: `
-# Leadership Principles from Mosiah and Noah
+# Two Kings, Two Towers: Inward vs. Outward Leadership
 
-Leadership principles from Mosiah and Noah.
 
-## Getting Started
+
+## Two Kings, Two Outcomes
+
+
+
+The Book of Mormon gives us two kings who couldn't be more different: King Benjamin and King Noah.
+
+
+
+Both held absolute power over their people. Both had resources at their disposal. Both built towers. Both left lasting legacies. But the similarities end there.
+
+
+
+Benjamin's reign produced a people who experienced a mighty change of heart, became children of Christ, and enjoyed peace and prosperity. His legacy was a smooth transition to his son and eventually to a system of judges that would serve the people for generations.
+
+
+
+Noah's reign produced vanity, oppression, and spiritual decay. His legacy was fragmentation, bondage, and eventually his own people burning him to death in fury.
+
+
+
+What made the difference? Not their circumstances. Not their resources. Not even the challenges they faced.
+
+
+
+The difference was their fundamental approach to leadership: **inward versus outward**.
+
+
+
+Benjamin led outward, for the benefit of his people. Noah led inward, for the benefit of himself. And the fruit of each approach tells us everything we need to know about leadership in our own lives.
+
+
+
+## Benjamin: Outward Leadership in Action
+
+
+
+King Benjamin's philosophy of leadership is stated clearly in Mosiah 2:17:
+
+
+
+> "When ye are in the service of your fellow beings ye are only in the service of your God."
+
+
+
+This wasn't just a nice sentiment. It was the operating principle of his entire reign. Benjamin saw his position of power not as a way to exercise authority, but as a way to spread the gospel and lift others up. He used his kingship as a platform for service, not for self-aggrandizement.
+
+
+
+### Benjamin's Policies
+
+
+
+His philosophy translated into concrete policies:
+
+
+
+**No taxation or burden.** Benjamin explicitly states in Mosiah 2:14 that he "has not sought gold nor silver nor any manner of riches of you; Neither have I suffered that ye should be confined in dungeons, nor that ye should make slaves one of another, nor that ye should murder, or plunder, or steal, or commit adultery." He didn't burden his people with taxes to support a royal lifestyle.
+
+
+
+**He worked with his own hands.** Mosiah 2:14 continues: "I, myself, have labored with mine own hands that I might serve you, and that ye should not be laden with taxes." The king (the highest authority in the land) worked alongside his people. This set the tone for the entire society: everyone worked, everyone contributed, and no one was above labor.
+
+
+
+**He built a tower to serve.** When Benjamin knew his time as king was ending, he had a tower constructed. But not for himself, for his people. He built it so that everyone, even those far away, could hear his final words. The tower existed to make sure no one was left out, that every voice could reach his teaching.
+
+
+
+**His final act was to give them a name.** Benjamin used his last moments of authority to bind his people to Christ, not to himself. He gave them the name "children of Christ" and helped them make covenants. Even at the end, with all the power and reverence they had for him, he pointed them to God.
+
+
+
+### Benjamin's Outcomes
+
+
+
+The fruit of Benjamin's outward leadership is stunning:
+
+
+
+His people experienced a **mighty change of heart**. Mosiah 5:2 records: "The Spirit of the Lord Omnipotent has wrought a mighty change in us, or in our hearts, that we have no more disposition to do evil, but to do good continually." This wasn't superficial compliance. It was genuine transformation.
+
+
+
+There was **unity and no contention**. Mosiah 2:4 notes there were "none that were contentious" among his people. When leadership serves rather than divides, people come together.
+
+
+
+They enjoyed **economic prosperity and peace**. Because they weren't burdened with heavy taxation and their resources weren't extracted for a king's palace, families were cared for. The poor were treated better. Everyone gave to help each other.
+
+
+
+His leadership created a **peaceful transition**. When Benjamin handed power to his son Mosiah, there was no upheaval, no crisis. The patterns Benjamin established continued, eventually leading to the transition from kings to judges, a system that would serve the Nephites for generations.
+
+
+
+Benjamin's outward leadership created a society where people looked to him as an example of how to treat others. He built upward, lifting everyone together.
+
+
+
+## Noah: Inward Leadership in Action
+
+
+
+King Noah presents the opposite picture. While the Book of Mormon doesn't explicitly state his philosophy, his actions reveal it clearly: he believed his position existed for his personal benefit. Power was a tool for self-enrichment, not service.
+
+
+
+### Noah's Policies
+
+
+
+**20% taxation.** Mosiah 11:3 records that Noah "did tax them with heavy taxes, even to the fifth part of all they possessed." One-fifth of everything his people owned went to support his lifestyle. Compare this to Benjamin's explicit refusal to burden his people with taxes.
+
+
+
+**Lavish personal construction.** Noah didn't build towers to teach. He built for display:
+
+- A palace with "elegant and spacious buildings"
+
+- "A throne in the midst thereof, all of which was of fine wood and was ornamented with gold and silver and with precious things"
+
+- He even "ornamented the temple" - not to enhance worship, but to showcase wealth
+
+- A tower from which to survey all his possessions (Mosiah 11:12)
+
+
+
+**Corrupt priests who didn't work.** Mosiah 11:5-6 describes Noah's priests as "lazy and idolatrous" people who "did not support themselves by their own labors, but were supported by the taxes which king Noah had put upon his people." The burden wasn't just Noah. It was an entire administrative class living off the labor of others.
+
+
+
+**Elimination of threats.** When the prophet Abinadi confronted Noah with truth, Noah killed him. Insecure leadership cannot tolerate challenge. Benjamin's security came from God; Noah's came from his position, which meant he had to protect it at all costs.
+
+
+
+### Noah's Outcomes
+
+
+
+The fruit of Noah's inward leadership was poisonous:
+
+
+
+**Spiritual decay.** Mosiah 11:7 says plainly: "Yea, and thus they were supported in their laziness, and in their idolatry, and in their whoredoms, by the taxes which king Noah had put upon his people; thus did the people labor exceedingly to support iniquity." The moral rot started at the top and infected the whole society.
+
+
+
+**Vanity and pride.** The people became focused on appearances, on being better than those around them, on finding power for themselves. They mirrored their king's values.
+
+
+
+**Economic oppression.** While Noah lived in luxury, families struggled under the tax burden. Resources flowed inward to the king and his cronies, not outward to those in need.
+
+
+
+**Fragmentation and bondage.** Noah's reign eventually fractured into two groups: Limhi's people (who fell into bondage to the Lamanites) and Alma's people (who fled to the wilderness and also eventually experienced bondage). His selfish leadership created generational trauma.
+
+
+
+**His own people burned him.** In the end, Noah was burned by the very people he ruled. That's the ultimate indicator of failed leadership: when those you lead turn on you with such fury. They realized that Noah had never done anything to better their lives, only to leach from them.
+
+
+
+Noah's inward leadership created a society where people feared him and his power. He built to elevate himself above others.
+
+
+
+## The Two Towers: A Symbol
+
+
+
+The towers that Benjamin and Noah built perfectly symbolize the difference in their leadership.
+
+
+
+**Benjamin's tower** was built so everyone could hear him. It existed to serve, to ensure that even those far from the center could participate in his final teaching. It was a tool for inclusion, for making sure no one was left out. When people looked at Benjamin's tower, they saw an example of how to treat others: lift them up, make sure their voices are heard.
+
+
+
+**Noah's tower** was built so he could survey all his possessions. Mosiah 11:12 says it was "built near the temple; yea, a very high tower, even so high that he could stand upon the top thereof and overlook the land of Shilom, and also the land of Shemlon." It existed to display his power, to remind everyone of what he owned, to elevate himself. When people looked at Noah's tower, they were meant to fear his reach and his control.
+
+
+
+Same structure. Opposite purposes.
+
+
+
+This illustrates the fundamental truth about leadership: **intent matters**. The same action (building a tower, teaching your children, leading a meeting, using your authority) can be service or self-promotion depending on what's driving it.
+
+
+
+## The Self-Deception Problem
+
+
+
+Here's what makes this challenging: we can deceive ourselves about our motives.
+
+
+
+We can tell ourselves we're leading "outward" while actually leading "inward." We can genuinely believe we're serving others while subtly seeking personal gratification, validation, or recognition. The same actions can flow from different intents, and we're remarkably good at justifying our true motives to ourselves.
+
+
+
+Consider the example of the "trophy child." A parent might say, "I want my child to succeed," but that statement can mean two very different things:
+
+
+
+**Inward:** "I want my child to succeed so I feel like a successful parent, so I can display their achievements, so others think well of me."
+
+
+
+**Outward:** "I want my child to develop their gifts and find joy, regardless of whether that looks like success to others or reflects well on me."
+
+
+
+The actions might look similar from the outside. Both parents might push their children, invest in opportunities, celebrate achievements. But one is using the child to meet their own needs for validation (inward), while the other genuinely wants the child to flourish (outward). And eventually, the fruit will reveal which is which.
+
+
+
+The child whose parent leads inward will feel like a performance, an extension of their parent's ego. The child whose parent leads outward will feel supported and loved for who they are, not what they achieve.
+
+
+
+This pattern shows up everywhere:
+
+
+
+**In church callings:** Do we lead to look good, to be seen as successful? Or to lift and serve those we're called to lead? Do we feel threatened when others have good ideas or when we're released from a calling?
+
+
+
+**In marriage:** Do we serve our spouse to earn appreciation and validation? Or because we genuinely want their happiness and growth?
+
+
+
+**At work:** Do we extract value for ourselves or create value for others? Do we hoard credit or share it? Do we see people as resources to advance our career or as people worthy of dignity?
+
+
+
+The same actions (serving, leading, teaching) can flow from radically different motives. And we're often the last to recognize when our motives have shifted inward.
+
+
+
+## The Fruit Test
+
+
+
+So how do we know? If we can deceive ourselves about our motives, how do we actually discern whether we're leading inward or outward?
+
+
+
+The answer is found in the fruit. Not just external metrics of success, but the internal state of those we lead.
+
+
+
+### Questions to Ask
+
+
+
+**Do the people I lead feel lifted or burdened?** Benjamin's people felt lifted, transformed, filled with joy. Noah's people felt burdened, oppressed, and eventually burned with rage.
+
+
+
+**Are they growing or shrinking?** Are the people under your influence becoming more capable, more confident, more themselves? Or are they becoming smaller, more dependent, less secure?
+
+
+
+**Do they experience joy or resentment?** Benjamin's people experienced a mighty change of heart. Noah's people experienced bondage and eventually burned him. Even in smaller contexts, do people light up when they see you coming, or do they brace themselves?
+
+
+
+**Are they becoming more capable or more dependent on me?** Outward leadership empowers others to lead. Inward leadership requires everyone to orbit around you.
+
+
+
+**What happens when I'm challenged?** Benjamin's humility allowed him to receive truth. Noah killed the prophet who challenged him. When someone disagrees with our leadership or offers a different perspective, do we feel threatened or curious?
+
+
+
+The fruit doesn't lie. Benjamin's outward leadership produced joy, unity, mighty change, and a legacy of peace. Noah's inward leadership produced vanity, division, bondage, and his own violent end.
+
+
+
+## The Response Test
+
+
+
+Beyond examining the fruit in others' lives, we can examine our own responses to outcomes. This is perhaps the most revealing test.
+
+
+
+**Ask yourself: How do I respond to outcomes?**
+
+
+
+**The inward lens asks:**
+
+- "How does this affect my image?"
+
+- "What will people think of me?"
+
+- "Does this make me look good or bad?"
+
+- "Am I succeeding or failing?"
+
+
+
+**The outward lens asks:**
+
+- "How does this affect them?"
+
+- "What do they need?"
+
+- "Are they growing?"
+
+- "How can I better serve?"
+
+
+
+### Examples in Practice
+
+
+
+**Your child achieves something:** Are you proud of *them* or proud of *yourself*? Do you immediately think about how this reflects on your parenting, or do you genuinely celebrate their growth and effort?
+
+
+
+**Someone struggles under your leadership:** Do you worry about your failure as a leader, or do you genuinely hurt for their struggle and look for ways to help them succeed?
+
+
+
+**You receive criticism or pushback:** Do you feel threatened (like Noah killing Abinadi), or are you open to learning and adjusting (like Benjamin's lifelong humility)?
+
+
+
+**Someone else succeeds in your sphere:** Do you feel competitive or diminished, or do you genuinely celebrate their success?
+
+
+
+**You're released from a position or someone else gets recognition:** Do you feel invisible or undervalued, or do you feel free to serve in new ways?
+
+
+
+Our immediate, gut-level responses reveal more about our motives than our carefully crafted explanations ever will.
+
+
+
+## Applications to Our Lives
+
+
+
+We all lead *something*. Even if we're not kings or hold no formal position, we have spheres of influence. The question isn't whether we lead, but *how* we lead.
+
+
+
+### In Families
+
+
+
+Families are perhaps the easiest place to slip into inward leadership because the stakes feel so personal. Our children's behavior, achievements, and struggles all reflect on us, or at least, we think they do.
+
+
+
+**The "family tax":** Do we burden our families with our needs, our schedules, our demands? Do our children exist to make our lives easier, to make us look good, to validate our parenting? Do we extract emotional labor from our spouse to manage our insecurities?
+
+
+
+**Building towers:** Or do we build "towers" to serve them, making sure everyone in the family is heard, cared for, and able to reach their potential? Do we create structures (family time, traditions, conversations) that lift everyone up?
+
+
+
+**The trophy trap:** Are we using our children to meet our own needs for validation? Do we push them into activities, achievements, or appearances that make *us* look good rather than helping *them* discover who they are?
+
+
+
+The fruit test applies directly: Are your family members flourishing? Do they feel safe to be themselves? Are they growing in confidence and capability? Or do they feel like performances in your life story?
+
+
+
+### In Church Callings
+
+
+
+Church callings give us temporary stewardships where the temptation to lead inward can be subtle.
+
+
+
+**Why are we serving?** To be seen as successful? To avoid the guilt of saying no? To earn respect? Or to genuinely bless the people in our stewardship?
+
+
+
+**How do we respond to others' ideas?** If someone in our organization has a better idea than ours, can we celebrate it? Or do we subtly diminish it to protect our position as "the leader"?
+
+
+
+**How do we feel about being released?** If we feel devastated, invisible, or forgotten when released, that might indicate we were serving for inward reasons: for the identity, recognition, or sense of importance the calling provided.
+
+
+
+**Do we want credit?** When something goes well, do we make sure people know we were behind it? Or are we genuinely content to see others blessed, regardless of who gets credit?
+
+
+
+Benjamin's outward leadership meant his final act was pointing people to Christ, not to himself. That's the model for every church calling.
+
+
+
+### At Work and Other Stewardships
+
+
+
+Even without formal authority, we lead through influence, collaboration, and how we treat others.
+
+
+
+**Do we extract or create?** Do we see our job as extracting value for ourselves (salary, advancement, recognition), or as creating value for others (solving problems, serving customers, supporting teammates)?
+
+
+
+**Do we hoard or share?** When we have knowledge, opportunities, or resources, do we hoard them to maintain our advantage, or share them to lift others?
+
+
+
+**How do we treat people?** As resources to advance our agenda, or as people worthy of dignity and respect regardless of what they can do for us?
+
+
+
+The fruit test still applies: Do people around you feel used or valued? Are they growing or surviving? Do they trust you or tolerate you?
+
+
+
+## The Security Question
+
+
+
+There's a deeper reason Benjamin could lead outward while Noah led inward: security.
+
+
+
+Benjamin knew his power and worth came from God. Mosiah 2:11 records him saying, "I have not commanded you to come up hither that ye should fear me, or that ye should think that I of myself am more than a mortal man." He knew he was just a man serving God. His identity wasn't tied to his position as king.
+
+
+
+This security freed him to serve. He didn't need to protect his image, defend his authority, or extract validation from his people. He could point them to Christ because his own worth wasn't on the line.
+
+
+
+Noah's power came from his position. That's why he had to protect it at all costs. When Abinadi threatened his authority with truth, Noah killed him. When his people eventually turned on him, he had nothing left. His entire identity was bound up in being king, in having power, in being elevated above others.
+
+
+
+**This is the key insight:** When we know our worth comes from God (when we understand that we're loved, valued, and secure regardless of what we accomplish or how others perceive us), we're free to lead outward. We can serve without needing something in return. We can empower others without feeling threatened. We can point people to Christ without needing them to admire us.
+
+
+
+But when our worth comes from our position, our success, or others' approval, we become defensive. We have to protect our image. We lead inward because we're desperately trying to fill our own needs through our leadership.
+
+
+
+The question is: Where does your security come from?
+
+
+
+## The Generational Impact
+
+
+
+The patterns we set don't just affect us. They impact the next generation.
+
+
+
+Benjamin's servant leadership created peace for his son Mosiah and eventually enabled the transition from kings to judges. His outward approach built a system that didn't depend on one person, that empowered many leaders, that would serve the Nephites for generations. He created patterns of righteousness that rippled forward.
+
+
+
+Noah's selfish leadership created bondage that his son Limhi spent years trying to escape. Limhi inherited not just a kingdom, but his father's debt—moral, spiritual, and political. The patterns of pride, vanity, and exploitation that Noah established infected his society and took generations to root out.
+
+
+
+**The question we should ask ourselves:** If our children copy our leadership style (in their families, their callings, their work), what kind of leaders will they be?
+
+
+
+Will they see leadership as service or as self-interest? Will they lift others or extract from them? Will they be secure enough to empower others, or insecure enough to need control?
+
+
+
+The patterns we set matter. Not just for us, but for those who watch us and learn from us.
+
+
+
+## The Choice: Inward or Outward?
+
+
+
+At the end of King Benjamin's sermon, his people fell to the earth, viewed themselves as less than the dust, and cried out for the atoning blood of Christ to be applied to them. They experienced a mighty change. They became children of Christ. They covenanted together.
+
+
+
+At the end of King Noah's reign, his people burned him in fury.
+
+
+
+The difference wasn't intelligence, or circumstances, or resources. It was direction. One king's heart faced outward toward his people. The other's faced inward toward himself.
+
+
+
+We make the same choice every day, in small moments:
+
+
+
+- When our child interrupts us, do we respond with irritation (my time, my agenda) or patience (their need matters)?
+
+- When someone in our organization struggles, do we worry about how it makes us look or genuinely seek to help them?
+
+- When we have an opportunity to serve, do we calculate what we'll get in return or simply serve?
+
+- When someone challenges our idea, do we defend our ego or consider their perspective?
+
+
+
+Inward or outward. For ourselves or for others. Benjamin or Noah.
+
+
+
+The fruit will tell the story.
+
+
+
+And if we're honest with ourselves (if we look at the actual outcomes, the real responses, the genuine fruit), we'll know which direction we're facing.
+
+
+
+The beautiful thing is, we can always turn. We can always choose, today, to lead outward. To serve rather than extract. To lift rather than use. To point to Christ rather than ourselves.
+
+
+
+King Benjamin shows us it's possible. King Noah shows us what happens when we don't.
+
+
+
+The choice is ours.
+
+
+
+---
+
+
+
+*Where are you leading? In your family, your calling, your work, are you facing inward or outward? What fruit are you seeing?*
     `,
     date: "November 6, 2025",
     category: "Book of Mormon",
-    readTime: "1 min read",
+    readTime: "25 min read",
     author: "Student",
-    tags: ["Leadership", "Mosiah", "Noah"]
+    tags: ["Leadership", "Benjamin", "Noah", "Mosiah", "Service"]
   },
   {
     id: "Korihor-Blueprint",
