@@ -210,7 +210,7 @@ export function AboutPage() {
       <footer className="mt-12 sm:mt-16 border-t-4 border-border bg-background p-4 sm:p-6">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm sm:text-base text-foreground font-bold">
-            Built with React, TypeScript, Vite, and Tailwind CSS | Neo-Brutal Design System
+            Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>
       </footer>
