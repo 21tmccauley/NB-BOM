@@ -3,42 +3,23 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge"
 import { blogPosts } from "@/data/blogPosts"
 import { Link } from "react-router-dom"
+import { Navigation } from "@/components/Navigation"
 
 export function HomePage() {
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b-4 border-border bg-background p-6">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <Link to="/" className="text-3xl font-bold text-foreground hover:underline">
-            BOOK OF MORMON BLOG
-          </Link>
-          <div className="flex gap-4 items-center">
-            <nav className="flex gap-4">
-              <Link to="/">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">Home</Button>
-              </Link>
-              <Link to="/about">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">About</Button>
-              </Link>
-              <Link to="/1percent">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">1%</Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto p-6">
+      <main className="max-w-6xl mx-auto p-4 sm:p-6">
         {/* Hero Section */}
-        <Card className="mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-          <CardHeader className="text-center">
-            <CardTitle className="text-5xl font-bold text-foreground mb-4">
+        <Card className="mb-8 sm:mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          <CardHeader className="text-center p-4 sm:p-6">
+            <CardTitle className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
               A STUDY OF<br />
               THE BOOK OF MORMON
             </CardTitle>
-            <CardDescription className="text-xl text-foreground">
+            <CardDescription className="text-base sm:text-lg md:text-xl text-foreground">
               Religious insights, scripture analysis, and personal reflections from a BYU religion class.
             </CardDescription>
           </CardHeader>
@@ -51,7 +32,7 @@ export function HomePage() {
 
         {/* Blog Posts */}
         <section>
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             RECENT POSTS
           </h3>
           <div className="grid gap-6 md:grid-cols-2">
@@ -76,7 +57,7 @@ export function HomePage() {
                         <p className={`text-xs ${textColor}`}>{post.readTime}</p>
                       </div>
                     </div>
-                    <CardTitle className={`text-2xl font-bold ${textColor}`}>
+                    <CardTitle className={`text-xl sm:text-2xl font-bold ${textColor}`}>
                       {post.title}
                     </CardTitle>
                   </CardHeader>
@@ -99,8 +80,8 @@ export function HomePage() {
         </section>
 
         {/* About Section */}
-        <section className="mt-16">
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+        <section className="mt-12 sm:mt-16">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             ABOUT THIS BLOG
           </h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -152,9 +133,9 @@ export function HomePage() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 border-t-4 border-border bg-background p-6">
+      <footer className="mt-12 sm:mt-16 border-t-4 border-border bg-background p-4 sm:p-6">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-foreground font-bold">
+          <p className="text-sm sm:text-base text-foreground font-bold">
             Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>

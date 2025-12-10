@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import { Navigation } from "@/components/Navigation"
 
 interface Donation {
   id: string
@@ -37,51 +38,31 @@ export function OnePercentPage() {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b-4 border-border bg-background p-6">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <Link to="/" className="text-3xl font-bold text-foreground hover:underline">
-            BOOK OF MORMON BLOG
-          </Link>
-          <div className="flex gap-4 items-center">
-            <nav className="flex gap-4">
-              <Link to="/">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">Home</Button>
-              </Link>
-              <Link to="/about">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">About</Button>
-              </Link>
-              <Link to="/1percent">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">1%</Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto p-6">
+      <main className="max-w-6xl mx-auto p-4 sm:p-6">
         {/* Hero Section */}
-        <Card className="mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-          <CardHeader className="text-center">
-            <CardTitle className="text-5xl font-bold text-foreground mb-4">
+        <Card className="mb-8 sm:mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          <CardHeader className="text-center p-4 sm:p-6">
+            <CardTitle className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
               1%
             </CardTitle>
-            <CardDescription className="text-xl text-foreground">
+            <CardDescription className="text-base sm:text-lg md:text-xl text-foreground">
               A commitment to giving 1% of income to causes that help the poor, inspired by Mosiah chapter 4
             </CardDescription>
           </CardHeader>
         </Card>
 
         {/* The Story */}
-        <section className="mb-12">
+        <section className="mb-8 sm:mb-12">
           <Card className="border-4 border-border bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            <CardHeader>
-              <CardTitle className="text-3xl font-bold text-foreground mb-4">
+            <CardHeader className="p-4 sm:p-6">
+              <CardTitle className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
                 THE STORY
               </CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-4 sm:p-6">
               <div className="space-y-4 text-base text-foreground">
                 <p>
                   During my study of <strong>Mosiah chapter 4</strong>, I was struck by King Benjamin's teachings 
@@ -112,17 +93,17 @@ export function OnePercentPage() {
         </section>
 
         {/* Statistics */}
-        <section className="mb-12">
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+        <section className="mb-8 sm:mb-12">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             IMPACT TRACKER
           </h3>
           <div className="grid gap-6 md:grid-cols-3">
             <Card className="border-4 border-border bg-accent-orange">
-              <CardHeader>
-                <CardTitle className="text-2xl font-bold text-foreground">TOTAL DONATED</CardTitle>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-xl sm:text-2xl font-bold text-foreground">TOTAL DONATED</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-foreground">${totalDonated.toLocaleString()}</p>
+              <CardContent className="p-4 sm:p-6">
+                <p className="text-3xl sm:text-4xl font-bold text-foreground">${totalDonated.toLocaleString()}</p>
                 <CardDescription className="text-base text-foreground mt-2">
                   1% of income given to causes
                 </CardDescription>
@@ -130,11 +111,11 @@ export function OnePercentPage() {
             </Card>
             
             <Card className="border-4 border-border bg-accent-purple">
-              <CardHeader>
-                <CardTitle className="text-2xl font-bold text-main-foreground">DONATIONS MADE</CardTitle>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-xl sm:text-2xl font-bold text-main-foreground">DONATIONS MADE</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-main-foreground">{donations.length}</p>
+              <CardContent className="p-4 sm:p-6">
+                <p className="text-3xl sm:text-4xl font-bold text-main-foreground">{donations.length}</p>
                 <CardDescription className="text-base text-main-foreground mt-2">
                   Organizations supported
                 </CardDescription>
@@ -142,11 +123,11 @@ export function OnePercentPage() {
             </Card>
             
             <Card className="border-4 border-border bg-accent-pink">
-              <CardHeader>
-                <CardTitle className="text-2xl font-bold text-main-foreground">THE GOAL</CardTitle>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-xl sm:text-2xl font-bold text-main-foreground">THE GOAL</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-main-foreground">1%</p>
+              <CardContent className="p-4 sm:p-6">
+                <p className="text-3xl sm:text-4xl font-bold text-main-foreground">1%</p>
                 <CardDescription className="text-base text-main-foreground mt-2">
                   Of annual income donated
                 </CardDescription>
@@ -156,8 +137,8 @@ export function OnePercentPage() {
         </section>
 
         {/* Donations List */}
-        <section className="mb-12">
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+        <section className="mb-8 sm:mb-12">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             DONATIONS & IMPACT
           </h3>
           
@@ -182,20 +163,20 @@ export function OnePercentPage() {
                 
                 return (
                   <Card key={donation.id} className={`border-4 border-border ${accentColor} shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]`}>
-                    <CardHeader>
-                      <div className="flex justify-between items-start mb-2">
-                        <Badge variant="default" className="border-2 border-border font-bold bg-accent-yellow text-foreground">
+                    <CardHeader className="p-4 sm:p-6">
+                      <div className="flex flex-col sm:flex-row justify-between items-start gap-3 sm:gap-0 mb-2">
+                        <Badge variant="default" className="border-2 border-border font-bold bg-accent-yellow text-foreground text-xs sm:text-sm">
                           {donation.date}
                         </Badge>
-                        <div className="text-right">
-                          <p className={`text-2xl font-bold ${textColor}`}>${donation.amount.toLocaleString()}</p>
+                        <div className="text-left sm:text-right">
+                          <p className={`text-xl sm:text-2xl font-bold ${textColor}`}>${donation.amount.toLocaleString()}</p>
                         </div>
                       </div>
-                      <CardTitle className={`text-2xl font-bold ${textColor} mb-2`}>
+                      <CardTitle className={`text-xl sm:text-2xl font-bold ${textColor} mb-2`}>
                         {donation.organization}
                       </CardTitle>
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="p-4 sm:p-6">
                       <div className="space-y-3">
                         <div>
                           <p className={`text-sm font-bold ${textColor} mb-1`}>CLAIMED IMPACT:</p>
@@ -215,14 +196,14 @@ export function OnePercentPage() {
         </section>
 
         {/* Mosiah 4 Reference */}
-        <section className="mb-12">
+        <section className="mb-8 sm:mb-12">
           <Card className="border-4 border-border bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            <CardHeader>
-              <CardTitle className="text-2xl font-bold text-foreground mb-4">
+            <CardHeader className="p-4 sm:p-6">
+              <CardTitle className="text-xl sm:text-2xl font-bold text-foreground mb-4">
                 MOSIAH 4:16-27
               </CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-4 sm:p-6">
               <div className="space-y-4 text-base text-foreground italic">
                 <p>
                   "And also, ye yourselves will succor those that stand in need of your succor; ye will administer 
@@ -245,9 +226,9 @@ export function OnePercentPage() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 border-t-4 border-border bg-background p-6">
+      <footer className="mt-12 sm:mt-16 border-t-4 border-border bg-background p-4 sm:p-6">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-foreground font-bold">
+          <p className="text-sm sm:text-base text-foreground font-bold">
             Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>

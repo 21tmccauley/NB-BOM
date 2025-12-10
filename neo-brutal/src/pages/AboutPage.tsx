@@ -1,55 +1,36 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Link } from "react-router-dom"
+import { Navigation } from "@/components/Navigation"
 
 export function AboutPage() {
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="border-b-4 border-border bg-background p-6">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <Link to="/" className="text-3xl font-bold text-foreground hover:underline">
-            BOOK OF MORMON BLOG
-          </Link>
-          <div className="flex gap-4 items-center">
-            <nav className="flex gap-4">
-              <Link to="/">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">Home</Button>
-              </Link>
-              <Link to="/about">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">About</Button>
-              </Link>
-              <Link to="/1percent">
-                <Button variant="outline" className="border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">1%</Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto p-6">
+      <main className="max-w-6xl mx-auto p-4 sm:p-6">
         {/* Hero Section */}
-        <Card className="mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-          <CardHeader className="text-center">
-            <CardTitle className="text-5xl font-bold text-foreground mb-4">
+        <Card className="mb-8 sm:mb-12 border-4 border-border bg-accent-yellow shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          <CardHeader className="text-center p-4 sm:p-6">
+            <CardTitle className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
               ABOUT THIS BLOG
             </CardTitle>
-            <CardDescription className="text-xl text-foreground">
+            <CardDescription className="text-base sm:text-lg md:text-xl text-foreground">
               A personal journey through Book of Mormon study and religious insights.
             </CardDescription>
           </CardHeader>
         </Card>
 
         {/* About Content */}
-        <section className="mb-12">
+        <section className="mb-8 sm:mb-12">
           <Card className="border-4 border-border bg-accent-darkblue shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            <CardHeader>
-              <CardTitle className="text-3xl font-bold text-foreground mb-4">
+            <CardHeader className="p-4 sm:p-6">
+              <CardTitle className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
                 MY STORY
               </CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-4 sm:p-6">
               <div className="space-y-4 text-base text-foreground">
                 <p>
                   This blog began as a personal project during my Book of Mormon religion class at BYU. 
@@ -68,8 +49,8 @@ export function AboutPage() {
         </section>
 
         {/* Mission Statement */}
-        <section className="mb-12">
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+        <section className="mb-8 sm:mb-12">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             MISSION & VALUES
           </h3>
           <div className="grid gap-6 md:grid-cols-3">
@@ -112,8 +93,8 @@ export function AboutPage() {
         </section>
 
         {/* What You'll Find */}
-        <section className="mb-12">
-          <h3 className="text-3xl font-bold text-foreground mb-8 border-b-4 border-border pb-4">
+        <section className="mb-8 sm:mb-12">
+          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 border-b-4 border-border pb-3 sm:pb-4">
             WHAT YOU'LL FIND HERE
           </h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -164,15 +145,15 @@ export function AboutPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="mb-12">
+        <section className="mb-8 sm:mb-12">
           <Card className="border-4 border-border bg-accent-yellow shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-center">
-            <CardHeader>
-              <CardTitle className="text-2xl font-bold text-foreground mb-4">
+            <CardHeader className="p-4 sm:p-6">
+              <CardTitle className="text-xl sm:text-2xl font-bold text-foreground mb-4">
                 JOIN THE CONVERSATION
               </CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="text-base text-foreground mb-6">
+            <CardContent className="p-4 sm:p-6">
+              <p className="text-sm sm:text-base text-foreground mb-6">
                 Have thoughts on a post? Questions about scripture study? I'd love to hear from you!
               </p>
               <div className="flex gap-4 justify-center">
@@ -188,9 +169,9 @@ export function AboutPage() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 border-t-4 border-border bg-background p-6">
+      <footer className="mt-12 sm:mt-16 border-t-4 border-border bg-background p-4 sm:p-6">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-foreground font-bold">
+          <p className="text-sm sm:text-base text-foreground font-bold">
             Book of Mormon Blog | BYU Religion Class | Fall 2025
           </p>
         </div>
